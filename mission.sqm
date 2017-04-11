@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=123;
+		nextID=130;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={23279.738,70.938492,17736.891};
-		dir[]={0.40825668,-0.91289294,-0.0029888854};
-		up[]={0.91290081,0.40812704,-0.0066825952};
-		aside[]={-0.0073204441,-7.4780809e-007,-1.000002};
+		pos[]={23339.648,52.778286,17669.83};
+		dir[]={-0.26974753,-0.62855935,0.72951347};
+		up[]={-0.21800715,0.777731,0.58958739};
+		aside[]={0.93795502,5.0873496e-007,0.34682107};
 	};
 };
 binarizationWanted=0;
@@ -42,13 +42,15 @@ addons[]=
 	"RHS_US_A2_AirImport",
 	"ace_ballistics",
 	"A3_Characters_F",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"A3_Structures_F_Mil_Flags",
+	"A3_Structures_F_Civ_Lamps"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=18;
+		items=20;
 		class Item0
 		{
 			className="A3_Structures_F_Bootcamp";
@@ -173,6 +175,20 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item18
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item19
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=10714406;
@@ -206,7 +222,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=49;
+		items=55;
 		class Item0
 		{
 			dataType="Object";
@@ -5564,6 +5580,352 @@ class Mission
 					};
 				};
 				nAttributes=4;
+			};
+		};
+		class Item49
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23314.213,7.1668048,17770.779};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=123;
+			type="Flag_Blue_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23314.383,7.1668048,17709.564};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=124;
+			type="Flag_Red_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item51
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23283.805,9.1721792,17712.797};
+				angles[]={0,2.287987,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=126;
+			type="Land_LampHalogen_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item52
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23343.852,9.1721792,17711.736};
+				angles[]={0,0.70396721,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=127;
+			type="Land_LampHalogen_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item53
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23345.881,9.1721792,17769.758};
+				angles[]={0,5.561285,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=128;
+			type="Land_LampHalogen_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23285.643,9.1721792,17770.186};
+				angles[]={0,4.0682797,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=129;
+			type="Land_LampHalogen_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};

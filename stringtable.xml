@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="TvT_BreakingContact_project">
+	<Package name="TvT_BreakingContact_package">
+		<Container name="mission briefing">
+			<Key ID="str_GRAD_story">
+				<Original>Cold war is at the brink of turning hot. CIA has gathered information about so called 'nationalist separatists of Russian origin' who became hold of an military radio truck. They plan to transmit control commands to obsolete russian satellites, spinning them into GPS-satellites, thus disabling NATOs eyes and ears. Even though Moscow denies to have a part in this, uniforms and equipment of the rebels speak another language. Stationed US troops have to strike hard and fast before its too late.
+				</Original>
+				<English>Cold war is at the brink of turning hot. CIA has gathered information about so called 'nationalist separatists of Russian origin' who became hold of an military radio truck. They plan to transmit control commands to obsolete russian satellites, spinning them into GPS-satellites, thus disabling NATOs eyes and ears. Even though Moscow denies to have a part in this, uniforms and equipment of the rebels speak another language. Stationed US troops have to strike hard and fast before its too late.
+				</English>
+				<German>Der Kalte Krieg ist kurz davor, heiß zu werden. Die CIA hat Informationen über sogenannte 'nationalistische Separatisten russischer Herkunft', die in Besitz eines militärischen Kommunikations-LKW gekommen sind. Mit dessen Hilfe planen sie, Steuerungskommandos an ausgediente russische Satelliten zu senden, diese auf Kollisionskurs zu GPS-Satelliten zu lenken und so der NATO Augen und Ohren zu nehmen. Auch wenn Moskau eine Beteiligung zurückweist, sprechen Uniformen und Ausrüstung der Rebellen eine andere Sprache. Stationierte US-Truppen müssen jetzt hart und schnell zuschlagen, bevor es zu spät ist.
+				</German>
+			</Key>
+			<Key ID="str_GRAD_briefing_1">
+				<Original>
+					US has to find and destroy the Russian radio truck before it ends its transmission. Russians have to protect their truck.
+				</Original>
+				<English>
+					US has to find and destroy the Russian radio truck before it ends its transmission. Russians have to protect their truck.
+				</English>
+				<German>
+					Die Amerikaner müssen den Funkwagen der Russen finden und zerstören, bevor er seine Übertragung	abschließen kann. Die Russen müssen ihn vor diesem Schicksal bewahren.
+				</German>
+			</Key>
+			<Key ID="str_GRAD_briefing_2">
+				<Original>
+					Both sides can choose from a selection of vehicles to buy at their base (ACE-Interaction). Buying is only possible for Commanders though. While US troops rely on mobile light vehicles and air superiority, Russians have more heavily armored toys to play with. For each player on the server there is a small bonus in money.
+				</Original>
+				<English>
+					Both sides can choose from a selection of vehicles to buy at their base (ACE-Interaction). Buying is only possible for Commanders though. While US troops rely on mobile light vehicles and air	superiority, Russians have more heavily armored toys to play with. For each player on the server there is a small bonus in money.
+				</English>
+				<German>
+					Beide Seiten können eine Auswahl von Fahrzeugen an ihrer Basis kaufen (ACE-Interaktion). Kaufen ist nur für die Commander möglich. Während die Amerikaner sich auf leichte, mobile Fahrzeuge und Luftüberlegenheit verlassen, haben die Russen stärker gepanzerte Fahrzeuge zur Verfügung. Für jeden Spieler auf dem Server gibt es einen kleinen Geldbonus.
+				</German>
+			</Key>
+			<Key ID="str_GRAD_ravenTitle">
+				<Original>RAVEN Operation</Original>
+				<English>RAVEN Operation</English>
+				<German>RAVEN Bedienung</German>
+			</Key>
+			<Key ID="str_GRAD_ravenUsage">
+				<Original>
+					&lt;font size='20' color='#c0c0c0'&gt;Launch&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;1. Place backpack on the ground.&lt;br/&gt;2. Assemble RQ-11 Raven.&lt;br/&gt;3. Pick up the drone and launch it.
+					&lt;br/&gt;4. Use the GCS or pick it up. Anyone can carry it, but only the soldier who launched the drone can use it.
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Operation&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Use the Ground Control System (GCS) to:
+					&lt;br/&gt;* Set a new target. The drone will move to it and circle it autonomously.
+					&lt;br/&gt;* Turn on the Minicam. The minicam displays the camera feed even when you are carrying the GCS.
+					&lt;br/&gt;* Autoland. The drone will automatically return to the GCS location and land.
+					&lt;br/&gt;* View the camera feed. See 'Controls'.
+					&lt;br/&gt;* Adjust the orbit radius and altitude.
+					&lt;br/&gt;* Automatically track and follow a target.
+					&lt;br/&gt;* Mark target on the map (side channel).
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Controls&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Camera feed controls:
+					&lt;br/&gt;* J   - display controls on-screen
+					&lt;br/&gt;* G   - close camera feed
+				</Original>
+				<English>
+					&lt;font size='20' color='#c0c0c0'&gt;Launch&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;1. Place backpack on the ground.&lt;br/&gt;2. Assemble RQ-11 Raven.&lt;br/&gt;3. Pick up the drone and launch it.
+					&lt;br/&gt;4. Use the GCS or pick it up. Anyone can carry it, but only the soldier who launched the drone can use it.
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Operation&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Use the Ground Control System (GCS) to:
+					&lt;br/&gt;* Set a new target. The drone will move to it and circle it autonomously.
+					&lt;br/&gt;* Turn on the Minicam. The minicam displays the camera feed even when you are carrying the GCS.
+					&lt;br/&gt;* Autoland. The drone will automatically return to the GCS location and land.
+					&lt;br/&gt;* View the camera feed. See 'Controls'.
+					&lt;br/&gt;* Adjust the orbit radius and altitude.
+					&lt;br/&gt;* Automatically track and follow a target.
+					&lt;br/&gt;* Mark target on the map (side channel).
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Controls&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Camera feed controls:
+					&lt;br/&gt;* J   - display controls on-screen
+					&lt;br/&gt;* G   - close camera feed
+				</English>
+				<German>
+					&lt;font size='20' color='#c0c0c0'&gt;Start&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;1. Rucksack auf den Boden legen.&lt;br/&gt;2. RQ-11 Raven zusammenbauen.&lt;br/&gt;3. Drohne aufheben und starten.
+					&lt;br/&gt;4. GCS benutzen oder mitnehmen. Jeder kann das GCS tragen, aber nur wer die Drohne gestartet hat kann es benutzen.
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Bedienung&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Benutzen Sie das Ground Control System (GCS) um:
+					&lt;br/&gt;* Ein neues Ziel zu setzen. Die Drohne wird autonom zu ihrem neuen Ziel fliegen und es umkreisen.
+					&lt;br/&gt;* Die Minicam einzuschalten. Die Minicam zeigt die Übertragung auch während Sie das GCS tragen.
+					&lt;br/&gt;* Automatisch zu landen. Die Drohne fliegt automatisch die Position des GCS an und landet.
+					&lt;br/&gt;* Die Übertragung anzuzeigen. Siehe Steuerung.
+					&lt;br/&gt;* Den Radius und die Flughöhe anzupassen.
+					&lt;br/&gt;* Automatisch das Ziel zu verfolgen.
+					&lt;br/&gt;* Das Ziel auf der Karte zu markieren (side channel).
+					&lt;br/&gt;&lt;br/&gt;&lt;font size='20' color='#c0c0c0'&gt;Controls&lt;/font&gt;&lt;br/&gt;
+					&lt;br/&gt;Camera Feed Steuerung:
+					&lt;br/&gt;* J   - Steuerung auf dem Bildschirm anzeigen
+					&lt;br/&gt;* G   - Übertragung schließen
+				</German>
+			</Key>
+		</Container>
+		<Container name="tasks">
+			<Key ID="str_GRAD_classicTaskNameOpfor">
+				<Original>Transmit for a total of </Original>
+				<English>Transmit for a total of </English>
+				<German>Funke für insgesamt </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskNameBlufor">
+				<Original>Destroy in </Original>
+				<English>Destroy in </English>
+				<German>Zerstöre in </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskTitleOpfor">
+				<Original>Transmit for a total of </Original>
+				<English>Transmit for a total of </English>
+				<German>Übertrage für insgesamt </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskTitleBlufor">
+				<Original>Destroy the transmitter before transmission runs </Original>
+				<English>Destroy the transmitter before transmission runs </English>
+				<German>Zerstöre den Funkwagen vor der Sendezeit von </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskDescriptionOpfor_1">
+				<Original>Transmit for </Original>
+				<English>Transmit for </English>
+				<German>Übertrage für </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskDescriptionOpfor_2">
+				<Original>and defend the truck or the terminal. Transmission can be interrupted, you dont have to stay at one place.</Original>
+				<English>and defend the truck or the terminal. Transmission can be interrupted, you dont have to stay at one place.</English>
+				<German>und verteidige Funkwagen oder Terminal. Die Übertragung kann unterbrochen werden, du musst nicht an einer Stelle bleiben.</German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskDescriptionBlufor">
+				<Original>Cancel the Russian transmission by destroying their radio truck or terminal in </Original>
+				<English>Cancel the Russian transmission by destroying their radio truck or terminal in </English>
+				<German>Beende die russische Übertragung durch Zerstörung des Funkwagens oder Funkmoduls in </German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskDescriptionOpfor_conquermode">
+				<Original>Prevent the radio truck from getting destroyed or fallen into enemy hands.</Original>
+				<English>Prevent the radio truck from getting destroyed or fallen into enemy hands.</English>
+				<German>Verhindern Sie, dass der Funkwagen zerstört wird oder in fremde Hände fällt.</German>
+			</Key>
+			<Key ID="str_GRAD_classicTaskDescriptionBlufor_conquermode">
+				<Original>Cancel the Russian transmission and capture their radio truck or terminal. Do not destoy it!</Original>
+				<English>Cancel the Russian transmission and capture their radio truck or terminal. Do not destoy it!</English>
+				<German>Beenden Sie die russische Übertragung und erobern Sie den Funkwagen oder das Terminal. Zerstören Sie es in keinem Fall!</German>
+			</Key>
+		</Container>
+		<Container name="mission setup">
+			<Key ID="str_GRAD_spawn_on_water">
+				<Original>Spawn on water not possible</Original>
+				<English>Spawn on water not possible</English>
+				<German>Im Wasser spawnen unmöglich</German>
+			</Key>
+			<Key ID="str_GRAD_choose_spawn_location">
+				<Original>Choose Spawn</Original>
+				<English>Choose Spawn</English>
+				<German>Spawnpunkt wählen</German>
+			</Key>
+			<Key ID="str_GRAD_choose_spawn_location_road">
+				<Original>Spawn must be on road!</Original>
+				<English>Spawn must be on road!</English>
+				<German>Muss auf Straße liegen!</German>
+			</Key>
+			<Key ID="str_GRAD_choose_spawn_location_hint">
+				<Original>&lt;t align='center' color='#80ffffff' size='0.7'&gt;In case you close this dialog by accident, reopen with [SPACE]. Spawn will be on nearest road to selected point. Thus its wise to choose a road beforehand. &lt;/t&gt;</Original>
+				<English>&lt;t align='center' color='#80ffffff' size='0.7'&gt;In case you close this dialog by accident, reopen with [SPACE] ! Spawn will be on nearest road to selected point. Thus its wise to choose a road beforehand. &lt;/t&gt;</English>
+				<German>&lt;t align='center' color='#80ffffff' size='0.7'&gt;Wenn Du diesen Dialog aus Versehen schließt, kannst du ihn mit [Leertaste] neu aufrufen. Spawn ist auf der dem selektierten Punkt am nächsten gelegenen Straße. Wähl also am Besten direkt eine aus.&lt;/t&gt;</German>
+			</Key>
+			<Key ID="str_GRAD_buy_vehicles">
+				<Original>Buy Vehicles</Original>
+				<English>Buy Vehicles</English>
+				<German>Fahrzeuge kaufen</German>
+				<French>Sélectionner des voitures</French>
+			</Key>
+			<Key ID="str_GRAD_disable_vehicle">
+				<Original>Disabling Radio Equipment</Original>
+				<English>Disabling Radio Equipment</English>
+				<German>Funkequipment zerstören</German>
+			</Key>
+			<Key ID="str_GRAD_disabling_radio">
+				<Original>Disabling radio equipment...</Original>
+				<English>Disabling radio equipment...</English>
+				<German>Zerstöre Funkequipment...</German>
+			</Key>
+			<Key ID="str_GRAD_jip">
+				<Original>Sorry, you joined too late. Spectate and enjoy!</Original>
+				<English>Sorry, you joined too late. Spectate and enjoy!</English>
+				<German>Du bist zu spät und musst zuschauen!</German>
+			</Key>
+			<Key ID="str_GRAD_spawnTooClose1">
+				<Original>Sorry, Spawn too close</Original>
+				<English>Sorry, Spawn too close</English>
+				<German>Sorry, Spawnpunkt zu dicht</German>
+			</Key>
+			<Key ID="str_GRAD_spawnTooClose2">
+				<Original>Must be at least </Original>
+				<English>Must be at least </English>
+				<German>Muss mindestens sein: </German>
+			</Key>
+			<Key ID="str_GRAD_spawnTooFar1">
+				<Original>Sorry, Spawn too far away from objective</Original>
+				<English>Sorry, Spawn too far away from objective</English>
+				<German>Sorry, Spawnpunkt zu weit weg vom Ziel</German>
+			</Key>
+			<Key ID="str_GRAD_spawnTooFar2">
+				<Original>Must be at max </Original>
+				<English>Must be at max </English>
+				<German>Darf höchstens sein: </German>
+			</Key>
+			<Key ID="str_GRAD_hint_bluforSpawned">
+				<Original>BLUFOR spawned. OPFOR may now spawn vehicle.</Original>
+				<English>BLUFOR spawned. OPFOR may now spawn vehicle.</English>
+				<German>BLUFOR ist gespawned. OPFOR kann jetzt Fahrzeug spawnen.</German>
+			</Key>
+			<Key ID="str_GRAD_hint_opforSpawned">
+				<Original>OPFOR spawned. BLUFOR may spawn now.</Original>
+				<English>OPFOR spawned. BLUFOR may spawn now.</English>
+				<German>OPFOR ist gespawned. BLUFOR kann jetzt spawnen.</German>
+			</Key>
+			<Key ID="str_GRAD_transmissionTime_1">
+				<Original>The Russians already sent </Original>
+				<English>The Russians already sent </English>
+				<German>Die Russen haben schon </German>
+			</Key>
+			<Key ID="str_GRAD_transmissionTime_2">
+				<Original> %.</Original>
+				<English> %.</English>
+				<German> % gesendet.</German>
+			</Key>
+			<Key ID="str_GRAD_transmissionTime_1_mud">
+				<Original>The Mudschaheddin already sent </Original>
+				<English>The Mudschaheddin already sent </English>
+				<German>Die Mudschaheddin haben schon </German>
+			</Key>
+			<Key ID="str_GRAD_lastTransmission">
+				<Original>Last transmission</Original>
+				<English>Last transmission</English>
+				<German>Letztes Signal</German>
+			</Key>
+			<Key ID="str_GRAD_endPlacement">
+				<Original>End Placement</Original>
+				<English>End Placement</English>
+				<German>Keine Objekte mehr platzieren</German>
+			</Key>
+			<Key ID="str_GRAD_carry_place">
+				<Original>Release</Original>
+				<English>Release</English>
+				<German>Ablegen</German>
+			</Key>
+			<Key ID="str_GRAD_carry_hint1">
+				<Original>At max you can move this boat for</Original>
+				<English>At max you can move this boat for</English>
+				<German>Sie können dieses Boot maximal</German>
+			</Key>
+			<Key ID="str_GRAD_carry_hint2">
+				<Original>using all your strength.</Original>
+				<English>using all your strength.</English>
+				<German>bewegen, verbrauchen dabei ihre Kraft.</German>
+			</Key>
+		</Container>
+		<Container name="mission_end">
+			<Key ID="str_GRAD_winmsg">
+				<Original>Mission ends now</Original>
+				<English>Mission ends now</English>
+				<German>Mission wird beendet</German>
+				<French>Mission est fini</French>
+			</Key>
+			<Key ID="str_GRAD_winmsg_points">
+				<Original>OPFOR wins! All propaganda transmitted.</Original>
+				<English>OPFOR wins! All propaganda transmitted.</English>
+				<German>OPFOR gewinnt! Propaganda vollständig ausgestrahlt.</German>
+			</Key>
+			<Key ID="str_GRAD_thankyouforplaying_opfor">
+				<Original>OPFOR wins!</Original>
+				<English>OPFOR wins!</English>
+				<German>OPFOR gewinnt!</German>
+			</Key>
+			<Key ID="str_GRAD_thankyouforplaying_blufor">
+				<Original>BLUFOR wins!</Original>
+				<English>BLUFOR wins!</English>
+				<German>BLUFOR gewinnt!</German>
+			</Key>
+			<Key ID="str_GRAD_thankyouforplaying2">
+				<Original>Thank you for playing.</Original>
+				<English>Thank you for playing.</English>
+				<German>Danke fürs Spielen.</German>
+			</Key>
+			<Key ID="str_GRAD_declareFailedBlufor">
+				<Original>Declare Mission failed for BLUFOR</Original>
+				<English>Declare Mission failed for BLUFOR</English>
+				<German>Mission für BLUFOR aufgeben</German>
+			</Key>
+			<Key ID="str_GRAD_hint_playback_speed_hint">
+				<Original>Replay Speed:</Original>
+				<English>Replay Speed:</English>
+				<German>Replay Geschwindigkeit:</German>
+			</Key>
+			<Key ID="str_GRAD_hint_replay_started">
+				<Original>Replay started</Original>
+				<English>Replay started</English>
+				<German>Replay gestartet</German>
+			</Key>
+			<Key ID="str_GRAD_hint_replay_timestamp">
+				<Original>Ingame time:</Original>
+				<English>Ingame time:</English>
+				<German>Zeit im Spiel:</German>
+			</Key>
+			<Key ID="str_GRAD_hint_replay_finished">
+				<Original>Replay finished</Original>
+				<English>Replay finished</English>
+				<German>Replay beendet</German>
+			</Key>
+			<Key ID="str_GRAD_supplyDrop">
+				<Original> Fim92</Original>
+				<English> Fim92</English>
+				<German> Fim92</German>
+			</Key>
+			<Key ID="str_GRAD_intervalReached_1">
+				<Original>Call</Original>
+				<English>Call</English>
+				<German>Funkspruch</German>
+			</Key>
+			<Key ID="str_GRAD_intervalReached_2">
+				<Original>finished</Original>
+				<English>finished</English>
+				<German>beendet</German>
+			</Key>
+		</Container>
+		<Container name="GUI_buy_menu">
+			<Key ID="str_GRAD_buy_order">
+				<Original>Order</Original>
+				<English>Order</English>
+				<German>Anfordern</German>
+			</Key>
+			<Key ID="str_GRAD_buy_order_hint">
+				<Original>Order</Original>
+				<English>Order</English>
+				<German>Bestellen</German>
+			</Key>
+			<Key ID="str_GRAD_buy_disable">
+				<Original>Hide (Disable Spawn)</Original>
+				<English>Hide (Disable Spawn)</English>
+				<German>Verstecken (Spawn beenden)</German>
+			</Key>
+			<Key ID="str_GRAD_buy_exit">
+				<Original>Close</Original>
+				<English>Close</English>
+				<German>Schließen</German>
+			</Key>
+			<Key ID="str_GRAD_buy_credits_hint">
+				<Original>Remaining credits</Original>
+				<English>Remaining credits</English>
+				<German>Verbleibende Credits</German>
+			</Key>
+			<Key ID="str_GRAD_buy_legend_price">
+				<Original>&lt;t color='#80ffffff'&gt;Price&lt;/t&gt;</Original>
+				<English>&lt;t color='#80ffffff'&gt;Price&lt;/t&gt;</English>
+				<German>&lt;t color='#80ffffff'&gt;Preis&lt;/t&gt;</German>
+			</Key>
+			<Key ID="str_GRAD_buy_legend_count">
+				<Original>&lt;t color='#80ffffff'&gt;Count left&lt;/t&gt;</Original>
+				<English>&lt;t color='#80ffffff'&gt;Count left&lt;/t&gt;</English>
+				<German>&lt;t color='#80ffffff'&gt;Anz. verf.&lt;/t&gt;</German>
+			</Key>
+			<Key ID="str_GRAD_buy_legend_vehicle">
+				<Original>&lt;t color='#80ffffff'&gt;Type&lt;/t&gt;</Original>
+				<English>&lt;t color='#80ffffff'&gt;Type&lt;/t&gt;</English>
+				<German>&lt;t color='#80ffffff'&gt;Typ&lt;/t&gt;</German>
+			</Key>
+			<Key ID="str_GRAD_buy_headline">
+				<Original>&lt;t align='center' size='2'&gt;Call reinforcements&lt;/t&gt;</Original>
+				<English>&lt;t align='center' size='2'&gt;Call reinforcements&lt;/t&gt;</English>
+				<German>&lt;t align='center' size='2'&gt;Nachschub anfordern&lt;/t&gt;</German>
+			</Key>
+			<Key ID="str_GRAD_buy_calling">
+				<Original>Calling...</Original>
+				<English>Calling...</English>
+				<German>Auftrag läuft...</German>
+			</Key>
+			<Key ID="str_GRAD_buy_plswait">
+				<Original>Please wait.</Original>
+				<English>Please wait.</English>
+				<German>Bitte warten.</German>
+			</Key>
+			<Key ID="str_GRAD_buy_noleft">
+				<Original>None left</Original>
+				<English>None left</English>
+				<German>Nicht vorhanden</German>
+			</Key>
+			<Key ID="str_GRAD_buy_tooexpensive">
+				<Original>Too expensive</Original>
+				<English>Too expensive</English>
+				<German>Zu teuer</German>
+			</Key>
+			<Key ID="str_GRAD_detach_radio">
+				<Original>Detach radio unit</Original>
+				<English>Detach radio unit</English>
+				<German>Sendeeinheit ausbauen</German>
+			</Key>
+			<Key ID="str_GRAD_detaching_radio">
+				<Original>Detach radio unit...</Original>
+				<English>Detaching radio unit...</English>
+				<German>Baue Sendeeinheit aus...</German>
+			</Key>
+			<Key ID="str_GRAD_attach_radio">
+				<Original>Attach radio unit</Original>
+				<English>Attach radio unit</English>
+				<German>Sendeeinheit einbauen</German>
+			</Key>
+			<Key ID="str_GRAD_attaching_radio">
+				<Original>Attaching radio unit...</Original>
+				<English>Attaching radio unit...</English>
+				<German>Baue Sendeeinheit ein...</German>
+			</Key>
+			<Key ID="str_GRAD_pickup_radio">
+				<Original>Pick up radio unit</Original>
+				<English>Pick up radio unit</English>
+				<German>Sendeeinheit aufnehmen</German>
+			</Key>
+			<Key ID="str_GRAD_drop_radio">
+				<Original>Drop radio unit</Original>
+				<English>Drop radio unit</English>
+				<German>Sendeeinheit ablegen</German>
+			</Key>
+			<Key ID="str_GRAD_radio_signalstrength">
+				<Original>Signal strength to relay is now </Original>
+				<English>Signal strength to relay is now </English>
+				<German>Sendestärke ist nun </German>
+			</Key>
+			<Key ID="str_GRAD_radio_deploy">
+				<Original>Deploy Radio Antenna</Original>
+				<English>Deploy Radio Antenna</English>
+				<German>Funkmast ausfahren</German>
+			</Key>
+			<Key ID="str_GRAD_radio_retract">
+				<Original>Retract Radio Antenna</Original>
+				<English>Retract Radio Antenna</English>
+				<German>Funkmast einfahren</German>
+			</Key>
+			<Key ID="str_GRAD_flag_raise">
+				<Original>Raise flag</Original>
+				<English>Raise flag</English>
+				<German>Flagge hissen</German>
+			</Key>
+			<Key ID="str_GRAD_flag_remove">
+				<Original>Remove flag</Original>
+				<English>Remove flag</English>
+				<German>Flagge entfernen</German>
+			</Key>
+		</Container>
+	</Package>
+</Project>

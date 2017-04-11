@@ -1,0 +1,86 @@
+#include "gui_defines.hpp"
+#include "ui_toolkit.hpp"
+#define MODULES_DIRECTORY node_modules
+
+onLoadName = "Breaking Contact Techcheck";
+respawn = 3;
+respawnDelay = 1;
+respawnVehicleDelay = 0;
+respawnTemplates[] = {"Base"};
+enableDebugConsole = 1;
+disabledAI = 1;
+
+class CfgFunctions {
+    #include "node_modules\grad-loadout\cfgFunctions.hpp"
+    #include "grad_tracking\cfgFunctions.hpp"
+};
+
+class Loadouts {
+	#include "LIST_N.hpp"
+
+	resetLoadout = 1;
+	handleRadios = 1;
+
+	class AllUnits {
+		binoculars = "Binocular";
+		map = "ItemMap";
+		compass = "ItemCompass";
+		watch = "ItemWatch";
+	};
+	class Faction {
+		#include "loadouts\US_Desert.hpp"
+		#include "loadouts\US_Woodland.hpp"
+		#include "loadouts\RU_Desert.hpp"
+		#include "loadouts\RU_Woodland.hpp"
+
+		#include "loadouts\SOV_Desert.hpp"
+		#include "loadouts\MUD_Desert.hpp"
+	};
+};
+
+
+class RscTitles {
+    class grad_techcheck_empty {
+        idd = -1;
+        fadein = 0;
+        fadeout = 0;
+        duration = 0;
+    };
+
+    class grad_techcheck_vehicleinfo {
+        idd = -1;
+        duration = 1;
+        fadein = 0;
+        fadeout = 0;
+
+        enableSimulation = 1;
+        enableDisplay = 1;
+
+        onLoad = "uiNamespace setVariable ['grad_techcheck_vehicleinfo', _this select 0];";
+        onUnload = "uiNamespace setVariable ['grad_techcheck_vehicleinfo', displayNull];";
+
+        class ControlsBackground {
+            class vehicleInfo {
+                idc = 2000;
+                type = CT_STRUCTURED_TEXT;  // defined constant
+                style = ST_LEFT;            // defined constant
+                colorBackground[] = {0,0,0,0.8};
+                x = 0.75 * X_SCALE;
+                y = 0.15 * Y_SCALE;
+                w = 0.50 * X_SCALE;
+                h = 0.62 * Y_SCALE;
+                size = 0.024;
+                text = "TESTTEST";
+                class Attributes {
+                    font = "RobotoCondensed";
+                    color = "#ffffff";
+                    align = "left";
+                    valign = "top";
+                    shadow = false;
+                    shadowColor = "#ff0000";
+                    size = "1.3";
+                };
+            };
+        };
+    };
+};

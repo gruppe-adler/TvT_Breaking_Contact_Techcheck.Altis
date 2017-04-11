@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=130;
+		nextID=131;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={23339.648,52.778286,17669.83};
-		dir[]={-0.26974753,-0.62855935,0.72951347};
-		up[]={-0.21800715,0.777731,0.58958739};
-		aside[]={0.93795502,5.0873496e-007,0.34682107};
+		pos[]={23364.23,25.664423,17758.561};
+		dir[]={-0.7378177,-0.51207316,-0.43983099};
+		up[]={-0.43989521,0.85891294,-0.26223141};
+		aside[]={-0.5120585,4.6554487e-007,0.85897994};
 	};
 };
 binarizationWanted=0;
@@ -44,13 +44,14 @@ addons[]=
 	"A3_Characters_F",
 	"A3_Ui_F",
 	"A3_Structures_F_Mil_Flags",
-	"A3_Structures_F_Civ_Lamps"
+	"A3_Structures_F_Civ_Lamps",
+	"ace_weather"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=20;
+		items=21;
 		class Item0
 		{
 			className="A3_Structures_F_Bootcamp";
@@ -189,6 +190,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item20
+		{
+			className="ace_weather";
+			name="ACE3 - Weather";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
 	};
 };
 randomSeed=10714406;
@@ -222,7 +230,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=55;
+		items=56;
 		class Item0
 		{
 			dataType="Object";
@@ -5926,6 +5934,134 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item55
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23472.262,3.1900001,17681.828};
+			};
+			id=130;
+			type="ace_weather_ModuleSettings";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_weather_ModuleSettings_useACEWeather";
+					expression="_this setVariable ['useACEWeather',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_weather_ModuleSettings_serverUpdateInterval";
+					expression="_this setVariable ['serverUpdateInterval',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=60;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_weather_ModuleSettings_syncMisc";
+					expression="_this setVariable ['syncMisc',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_weather_ModuleSettings_syncRain";
+					expression="_this setVariable ['syncRain',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_weather_ModuleSettings_enableServerController";
+					expression="_this setVariable ['enableServerController',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_weather_ModuleSettings_syncWind";
+					expression="_this setVariable ['syncWind',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
 	};

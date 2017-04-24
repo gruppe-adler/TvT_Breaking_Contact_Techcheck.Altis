@@ -9,7 +9,7 @@
             _name = "OPFOR Funktruck";
             _price = "n/a";
             _stock = "n/a";
-            _special = "Übermittelt die wichtige Funknachricht für OPFOR. OPFOR kann hier Fahrzeuge und Equipment kaufen. Sobald der Funktruck zerstört ist, gewinnt BLUFOR. Ausnahme: OPFOR hat das Radio Relay gekauft.";            
+            _special = "Übermittelt die wichtige Funknachricht für OPFOR. OPFOR kann hier Fahrzeuge und Equipment kaufen. Sobald der Funktruck zerstört ist, gewinnt BLUFOR. Ausnahme: OPFOR hat das Radio Relay gekauft.";
             _inventory = [
                 "* Spraypaint schwarz, 10",
                 "* Spraypaint schwarz, 10",
@@ -28,12 +28,12 @@
             _special = "";
             _inventory = ["* GPS, 1"];
         };
-        case ("rhs_kamaz5350_flatbed_msv"): {
-            _name = "Kamaz 5350 MPAD";
+        case ("rhs_Igla_AA_pod_msv"): {
+            _name = "MPAD";
             _price = 500;
             _stock = 2;
-            _special = "Hat einen Igla Werfer auf der Ladefläche, auf den mit Mausrad-Interaktion aufgesessen werden kann.";
-            _inventory = ["* GPS, 1"];
+            _special = "Tragbar, ziehbar, verladbar";
+            _inventory = [];
         };
         case ("rhs_gaz66_repair_vdv"): {
             _name = "GAZ-66 Ammo";

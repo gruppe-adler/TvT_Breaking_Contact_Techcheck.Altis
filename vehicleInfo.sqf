@@ -37,8 +37,8 @@
         };
         case ("rhs_gaz66_repair_vdv"): {
             _name = "GAZ-66 Ammo";
-            _price = 500;
-            _stock = 8;
+            _price = 1000;
+            _stock = 1;
             _special = "Hat GRAD-Fortifications geladen. Werden mit ACE-Interaction benutzt.";
             _inventory = [
                 "* Smoke Grenade, 20",
